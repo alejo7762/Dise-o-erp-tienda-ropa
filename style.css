@@ -61,11 +61,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffedba; /* beige */
+  color: #ffffd5; /* beige */
 }
 
 header {
-  background-color: #ffedba; 
+  background-color: #ffffd5; 
   color: white;
   padding: 15px 0;
   position: fixed;
@@ -112,7 +112,7 @@ section {
 .feature {
   flex: 1;
   margin: 10px;
-  background-color: #b88b5c; /* Beige claro */
+  background-color: #b68e56; /* Beige claro */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
