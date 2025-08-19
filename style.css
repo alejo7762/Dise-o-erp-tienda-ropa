@@ -1,6 +1,7 @@
 /* ===== Estilos generales ===== */
 body {
   margin: 0;
+  padding-top: 60px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f5f5dc; /* Beige */
   color: #3e2723; /* Café oscuro */
@@ -88,13 +89,6 @@ header .btn {
 
 header .btn:hover {
   background-color: #5d4037;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f5f5dc; /* beige claro */
 }
 
 main {
