@@ -13,6 +13,11 @@ body {
 
 
 header {
+    background-image: url("fondoinicioerp.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta el alto de la cabecera */
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
