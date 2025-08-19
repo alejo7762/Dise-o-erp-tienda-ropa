@@ -1,4 +1,4 @@
-/* Colores base */
+
 :root {
     --beige: #ECD8B1;
     --cafe: #2E1503;
@@ -19,7 +19,18 @@ header {
     background: var(--cafe);
     color: white;
     padding: 15px 20px;
+    position: fixed;       
+    top: 0;                
+    left: 0;
+    width: 100%;           
+    z-index: 1000;        
 }
+
+
+main {
+    padding: 100px 20px 20px;  
+}
+
 
 header h1 {
     margin: 0;
