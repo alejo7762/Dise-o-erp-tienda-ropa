@@ -1,151 +1,136 @@
-:root {
-    --beige: #f5f5dc;
-    --cafe: #5c4033;
-    --cafe-claro: #8b5e3c;
-}
-
+/* ===== Estilos generales ===== */
 body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    background: var(--beige);
-    color: #333;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5dc; /* Beige */
+  color: #3e2723; /* Café oscuro */
 }
 
-
-header {
-    background-image: url("fondoinicioerp.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 300px; /* Ajusta el alto de la cabecera */
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--cafe);
-    color: white;
-    padding: 15px 40px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+h1, h2, h3 {
+  font-family: "Georgia", serif;
+  color: #4e342e; /* Café medio */
+  margin-bottom: 10px;
 }
 
-header .logo {
-    font-size: 1.5em;
-    font-weight: bold;
+p {
+  color: #5d4037;
+}
+
+/* ===== Navegación ===== */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6d4c41; /* Café */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  z-index: 1000;
+}
+
+nav .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #f5f5dc; /* Beige */
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
 }
 
 nav ul li a {
-    color: white !important;
-    text-decoration: none;
-    font-weight: bold;
+  text-decoration: none;
+  color: #f5f5dc; /* Beige */
+  font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: var(--beige) !important;
+  color: #ffcc80; /* Beige más claro */
 }
 
-/* HERO */
-.hero {
-    background: url("img/hero.jpg") no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 200px 20px 150px;
-    margin-top: 70px; 
+/* ===== Hero ===== */
+header {
+  height: 500px;
+  background-image: url("ropa.jpg"); /* Imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 60px; /* para que no tape el menú */
 }
 
-.hero h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+header .hero-text h1 {
+  font-size: 48px;
 }
 
-.btn {
-    background: var(--cafe-claro);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+header .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #6d4c41;
+  color: #f5f5dc;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-.btn:hover {
-    background: var(--cafe);
+header .btn:hover {
+  background-color: #5d4037;
 }
 
-/* FEATURES */
+/* ===== Secciones ===== */
+section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+/* Features */
 .features {
-    display: flex;
-    justify-content: space-around;
-    padding: 60px 20px;
-    background: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .feature {
-    text-align: center;
-    max-width: 300px;
+  flex: 1;
+  margin: 10px;
+  background-color: #fff8e1; /* Beige claro */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
 }
 
-/* FEATURED CONTENT */
-.featured {
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.featured img {
-    max-width: 80%;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-/* SECONDARY CONTENT */
-.secondary {
-    background: #fff;
-    padding: 60px 20px;
-    text-align: center;
-}
-
+/* Cards de roles */
 .cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .card {
-    background: var(--beige);
-    padding: 15px;
-    border-radius: 8px;
-    width: 30%;
+  flex: 1;
+  margin: 10px;
+  background-color: #fff3e0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
 }
 
-.card img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-
-.cta {
-    text-align: center;
-    padding: 60px 20px;
-    background: var(--cafe-claro);
-    color: white;
-}
-
-
+/* Footer */
 footer {
-    background: var(--cafe);
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-footer h4 {
-    margin-bottom: 10px;
-}
-
+  background-color: #3e2723;
+  color: #f5f5dc;
+  text-align: center;
+  padding: 20px;
 }
