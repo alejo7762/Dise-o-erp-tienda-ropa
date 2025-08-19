@@ -61,11 +61,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffdeba; /* beige */
+  color: #ffedba; /* beige */
 }
 
 header {
-  background-color: #ffdeba; /* café */
+  background-color: #ffedba; 
   color: white;
   padding: 15px 0;
   position: fixed;
