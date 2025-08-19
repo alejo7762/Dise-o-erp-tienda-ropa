@@ -64,16 +64,6 @@ nav ul li a:hover {
   color: #ffffd5; /* beige */
 }
 
-header {
-  background-color: #ffffd5; 
-  color: white;
-  padding: 15px 0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
 header .hero-text h1 {
   font-size: 48px;
 }
