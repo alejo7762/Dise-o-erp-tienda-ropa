@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding-top: 60px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #b68e56; /* Beige */
+  background-color: #ffffd5; /* Beige */
   color: #3e2723; /* Café oscuro */
 }
 
@@ -127,7 +127,7 @@ section {
 .card {
   flex: 1;
   margin: 10px;
-  background-color: #fff3e0;
+  background-color: #b68e56;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
