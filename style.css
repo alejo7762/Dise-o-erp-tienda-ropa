@@ -41,6 +41,8 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 nav ul li {
@@ -49,26 +51,25 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #f5f5dc; /* Beige */
+  color: white;
   font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s;
 }
 
 nav ul li a:hover {
-  color: #ffcc80; /* Beige más claro */
+  color: #f5deb3; /* beige */
 }
 
-/* ===== Hero ===== */
 header {
-  height: 500px;
-  background-image: url("ropa.jpg"); /* Imagen de fondo */
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  background-color: #5c4033; /* café */
   color: white;
-  padding-top: 60px; /* para que no tape el menú */
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 header .hero-text h1 {
@@ -89,7 +90,17 @@ header .btn:hover {
   background-color: #5d4037;
 }
 
-/* ===== Secciones ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc; /* beige claro */
+}
+
+main {
+  padding: 100px 20px 20px;
+}
+
 section {
   padding: 60px 40px;
   text-align: center;
