@@ -1,13 +1,22 @@
+/* Colores base */
+:root {
+    --beige: #f5f5dc;
+    --cafe: #5c4033;
+    --cafe-claro: #8b5e3c;
+    --texto: #2e2e2e;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: #f9f9f9;
+    background: var(--beige);
+    color: var(--texto);
 }
 
 header {
-    background: #333;
+    background: var(--cafe);
     color: white;
     padding: 15px 20px;
 }
@@ -19,6 +28,7 @@ header h1 {
 nav ul {
     list-style: none;
     padding: 0;
+    margin-top: 10px;
 }
 
 nav ul li {
@@ -29,6 +39,12 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--beige);
+    text-decoration: underline;
 }
 
 main {
@@ -40,12 +56,29 @@ section {
     background: white;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 8px rgba(92, 64, 51, 0.2);
+}
+
+h2 {
+    color: var(--cafe-claro);
+}
+
+button {
+    background: var(--cafe-claro);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--cafe);
 }
 
 footer {
     text-align: center;
-    background: #333;
+    background: var(--cafe);
     color: white;
     padding: 10px;
     position: relative;
